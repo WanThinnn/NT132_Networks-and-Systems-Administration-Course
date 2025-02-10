@@ -1,0 +1,56 @@
+Câu 1: Trong hệ thống mạng, một PC (máy tính cá nhân) và một máy chủ có đặc điểm chung là gì?
+- Phần cứng: Cả PC và máy chủ đều có các thành phần phần cứng cơ bản như bộ vi xử lý, RAM, ổ đĩa lưu trữ (HDD hoặc SSD), bo mạch chủ (mainboard) và nguồn điện. Cả hai đều sử dụng các thiết bị mạng như card mạng (NIC) để kết nối với mạng nội bộ (LAN) hoặc Internet.
+- Hệ điều hành: Cả 2 đều chạy hệ điều hành để quản lý tài nguyên và ứng dụng. PC thường chạy các hệ điều hành như Windows, macOS, Linux, còn máy chủ thường sử dụng Windows Server, Linux Server, hoặc hệ điều hành ảo hóa. Máy chủ có thể sử dụng các hệ điều hành tương tự PC, nhưng thường được cấu hình với phiên bản tối ưu hóa cho các tác vụ mạng và quản trị hệ thống hơn.
+- Khả năng kết nối và giao tiếp qua mạng: Cả PC và máy chủ đều có thể kết nối vào hệ thống mạng và trao đổi thông tin với các thiết bị khác thông qua các giao thức mạng như TCP/IP. Cả hai đều có thể sử dụng các ứng dụng hoặc dịch vụ mạng như web, email, hoặc các dịch vụ mạng khác để giao tiếp và chia sẻ dữ liệu.
+- Chạy các phần mềm và ứng dụng: PC chủ yếu chạy các phần mềm phục vụ nhu cầu cho cá nhân (giải trí, lập trình,...) hoặc văn phòng (kế toán, office,...), trong khi máy chủ chạy các phần mềm phục vụ nhu cầu doanh nghiệp, cung cấp dịch vụ cho nhiều người dùng cùng lúc (ví dụ: web server, database server).
+- Lưu trữ dữ liệu: Cả PC và máy chủ đều có khả năng lưu trữ dữ liệu. Máy chủ thường lưu trữ dữ liệu để phục vụ cho nhiều người dùng và hệ thống, trong khi PC lưu trữ dữ liệu cá nhân của người dùng.
+
+
+Câu 2: Nên sử dụng mạng có dây hay mạng không dây? Giải thích tại sao?
+2.1. Mạng có dây:
+- Ưu điểm:
++ Tốc độ cao và ổn định: Mạng có dây thường cung cấp tốc độ truyền dữ liệu cao hơn và ổn định hơn so với mạng không dây. Kết nối qua cáp Ethernet (đặc biệt là các chuẩn hiện đại như Gigabit Ethernet) có thể đạt được tốc độ lên đến 1 Gbps hoặc cao hơn.
++ Độ trễ thấp: Mạng có dây thường có độ trễ rất thấp, thích hợp cho các ứng dụng yêu cầu phản hồi nhanh như chơi game, truyền phát video độ phân giải cao hoặc các ứng dụng theo thời gian thực.
++ Bảo mật cao hơn: Mạng có dây ít có nguy cơ bị tấn công từ xa hơn so với mạng không dây, bởi vì chỉ những thiết bị kết nối vật lý trực tiếp vào hệ thống mạng mới có thể truy cập vào nó.
++ Ít nhiễu hơn: Không bị ảnh hưởng bởi nhiễu từ các thiết bị không dây khác, các kết nối có dây duy trì được chất lượng ổn định hơn, đặc biệt trong các khu vực có nhiều sóng Wi-Fi hoặc các tín hiệu không dây khác.
+- Nhược điểm:
++ Kém linh hoạt: Mạng có dây yêu cầu cáp vật lý, điều này có thể hạn chế khả năng di chuyển của người dùng. Việc cài đặt cáp mạng trong những không gian rộng lớn hoặc phức tạp (như các tòa nhà cao tầng) có thể tốn kém và mất thời gian.
++ Chi phí triển khai: Việc triển khai mạng có dây yêu cầu thêm chi phí cho cáp Ethernet, switch, router, và đôi khi cả việc lắp đặt chuyên nghiệp.
+
+2.2. Mạng không dây (Wi-Fi)
+- Ưu điểm:
++ Tính linh hoạt cao: Người dùng có thể di chuyển tự do trong phạm vi phủ sóng Wi-Fi mà vẫn duy trì kết nối internet. Điều này rất thuận tiện cho các thiết bị di động như điện thoại, máy tính xách tay, máy tính bảng,...
++ Dễ triển khai và tiết kiệm chi phí: Việc cài đặt mạng không dây đơn giản hơn so với mạng có dây, đặc biệt trong các môi trường không phù hợp để chạy cáp. Cần ít thiết bị và không cần phải lo lắng về việc kéo cáp mạng.
++ Khả năng kết nối nhiều thiết bị: Mạng không dây cho phép nhiều thiết bị kết nối vào cùng một điểm truy cập mà không cần dây cáp vật lý, điều này rất hữu ích cho các môi trường như gia đình hoặc văn phòng nhỏ.
+- Nhược điểm:
++ Tốc độ và độ ổn định thấp hơn: Mặc dù mạng Wi-Fi hiện đại có thể cung cấp tốc độ khá cao (Wi-Fi 6 có thể đạt tốc độ gigabit), nhưng thường không ổn định bằng mạng có dây. Độ nhiễu từ các thiết bị điện tử khác hoặc vật cản có thể làm giảm hiệu suất.
++ Độ trễ cao hơn: Wi-Fi thường có độ trễ cao hơn, điều này có thể ảnh hưởng đến các ứng dụng đòi hỏi độ nhạy cao như chơi game trực tuyến hoặc hội thảo video.
++ Bảo mật kém hơn: Mạng Wi-Fi có nguy cơ bị tấn công từ bên ngoài cao hơn, đặc biệt nếu không được cấu hình bảo mật đúng cách. Hacker có thể dễ dàng nhắm mục tiêu vào mạng không dây nếu mạng không được bảo mật bằng mật khẩu mạnh và các giao thức mã hóa.
+
+2.3. Nhận xét: Nên sử dụng mạng nào => tuỳ thuộc vào nhu cầu của người dùng:
+- Nên sử dụng mạng có dây nếu nhu cầu của ta cần tốc độ cao, kết nối ổn định và bảo mật tốt. Điều này rất quan trọng trong các môi trường doanh nghiệp lớn, trung tâm dữ liệu, hoặc khi thực hiện các tác vụ như chơi game, biên tập video, hoặc làm việc với dữ liệu lớn.
+- Nên sử dụng mạng không dây nếu chúng ta ưu tiên sự linh hoạt, tiện lợi, và tính di động. Điều này rất phù hợp với môi trường gia đình, văn phòng nhỏ hoặc các khu vực công cộng nơi người dùng cần di chuyển và sử dụng nhiều thiết bị di động.
+
+
+
+Câu 3: Tại sao phải phân mảnh gói tin?
+Phân mảnh gói tin giúp:
+- Giới hạn kích thước gói tin trên đường truyền (MTU): Mỗi mạng có giới hạn về kích thước gói tin tối đa mà nó có thể truyền, gọi là MTU (Maximum Transmission Unit). Nếu gói tin lớn hơn MTU của mạng, nó cần được phân mảnh để truyền tải được.
+- Tương thích giữa các mạng khác nhau: Mạng Internet bao gồm nhiều loại mạng khác nhau với các giới hạn MTU riêng biệt. Gói tin cần được phân mảnh khi chuyển từ một mạng có MTU lớn sang một mạng có MTU nhỏ hơn để tránh mất gói hoặc lỗi truyền dữ liệu.
+- Tăng tính linh hoạt trong truyền tải: Bằng cách chia nhỏ gói tin, mạng có thể gửi dữ liệu một cách hiệu quả qua nhiều loại kết nối khác nhau, tối ưu hóa quá trình truyền tải trong các điều kiện mạng khác nhau.
+=> Phân mảnh gói tin giúp đảm bảo gói tin có thể được truyền đi trên toàn bộ mạng, bất kể giới hạn kích thước của từng liên kết mạng => giúp việc truyền tin qua mạng hiêu quả hơn
+
+
+Câu 4: Có 3 cách để truy cập vào thiết bị của Cisco là Console, SSH và Telnet. Chỉ ra điểm giống và khác nhau của 3 cách thức này.
+- Điểm giống nhau:
++ Truy cập vào thiết bị quản trị: Cả ba phương thức đều cho phép quản trị viên truy cập vào thiết bị Cisco để thực hiện cấu hình, giám sát và quản lý.
++ Dòng lệnh - CLI: Cả Console, SSH, và Telnet đều sử dụng giao diện CLI để nhập các lệnh quản trị và cấu hình thiết bị.
++ Kiểm soát từ xa: SSH và Telnet cho phép quản trị viên truy cập từ xa vào thiết bị thông qua mạng, trong khi Console chỉ hỗ trợ truy cập cục bộ.
++ Yêu cầu xác thực: Tất cả các phương thức đều yêu cầu xác thực bằng cách nhập tên đăng nhập và mật khẩu để đảm bảo tính bảo mật khi truy cập vào thiết bị.
+
+- Điểm khác nhau:
++ Console: Dùng khi truy cập trực tiếp, không cần kết nối qua mạng; an toàn nhưng không tiện cho truy cập từ xa => dùng cho cục bộ
++ SSH: An toàn nhất cho truy cập từ xa qua mạng, bảo mật cao với mã hóa, sử dung giao thức SSH (TCP port 22) => dùng từ xa
++ Telnet: Tiện cho truy cập từ xa nhưng không bảo mật, dễ bị tấn công,  giao thức Telnet (TCP port 23) => dùng từ xa được nhưng độ bảo mật kém.
+
+
